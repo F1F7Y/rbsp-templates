@@ -1,0 +1,57 @@
+//------------------------------------------------
+//--- 010 Editor v12.0.1 Binary Template
+//
+//      File: rbsp.bt
+//   Authors: Fifty#8113
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+#include "math.bt"
+
+#define GAME_TF1   29 // Titanfall 1 && Titanfall Online
+#define GAME_TF2TT 36 // Titanfall 2 tech test
+#define GAME_TF2   37 // Titanfall 2
+#define GAME_APEX  47 // Apex Legends up to s6
+
+struct bspLump_t
+{
+    int32_t offset;
+    int32_t length;
+    int32_t version;
+    int32_t padding;
+};
+
+struct bspHeader_t
+{
+    int32_t ident;       // "rBSP", 1347633778
+    int32_t version;     // -
+    int32_t mapRevision; // 30
+    int32_t lastLump;    // 127
+
+    bspLump_t lumps[128];
+};
+
+bspHeader_t hdr;
+
+Assert(hdr.ident == 1347633778, "Incorrect header ident!");
+
+#include "rbsp_file.bt"
+
+
+
+switch(hdr.version)
+{
+    case GAME_TF1:
+        #include "rbsp_v29.bt";
+        break;
+    case GAME_TF2:
+        #include "rbsp_v37.bt";
+        break;
+    default:
+        Assert(0, "Unsupported bsp version!");
+};

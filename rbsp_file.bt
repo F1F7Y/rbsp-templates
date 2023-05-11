@@ -1,0 +1,145 @@
+//------------------------------------------------
+//--- 010 Editor v12.0.1 Binary Template
+//
+//      File: rbsp_file.bt
+//   Authors: Fifty#8113
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+struct
+{
+    FSeek(hdr.lumps[0].offset); int8_t lump_0000[hdr.lumps[0].length] <comment="ENTITIES">;
+    FSeek(hdr.lumps[1].offset); int8_t lump_0001[hdr.lumps[1].length];
+    FSeek(hdr.lumps[2].offset); int8_t lump_0002[hdr.lumps[2].length];
+    FSeek(hdr.lumps[3].offset); int8_t lump_0003[hdr.lumps[3].length];
+    FSeek(hdr.lumps[4].offset); int8_t lump_0004[hdr.lumps[4].length];
+    FSeek(hdr.lumps[5].offset); int8_t lump_0005[hdr.lumps[5].length];
+    FSeek(hdr.lumps[6].offset); int8_t lump_0006[hdr.lumps[6].length];
+    FSeek(hdr.lumps[7].offset); int8_t lump_0007[hdr.lumps[7].length];
+    FSeek(hdr.lumps[8].offset); int8_t lump_0008[hdr.lumps[8].length];
+    FSeek(hdr.lumps[9].offset); int8_t lump_0009[hdr.lumps[9].length];
+    FSeek(hdr.lumps[10].offset); int8_t lump_000A[hdr.lumps[10].length];
+    FSeek(hdr.lumps[11].offset); int8_t lump_000B[hdr.lumps[11].length];
+    FSeek(hdr.lumps[12].offset); int8_t lump_000C[hdr.lumps[12].length];
+    FSeek(hdr.lumps[13].offset); int8_t lump_000D[hdr.lumps[13].length];
+    FSeek(hdr.lumps[14].offset); int8_t lump_000E[hdr.lumps[14].length];
+    FSeek(hdr.lumps[15].offset); int8_t lump_000F[hdr.lumps[15].length];
+    FSeek(hdr.lumps[16].offset); int8_t lump_0010[hdr.lumps[16].length];
+    FSeek(hdr.lumps[17].offset); int8_t lump_0011[hdr.lumps[17].length];
+    FSeek(hdr.lumps[18].offset); int8_t lump_0012[hdr.lumps[18].length];
+    FSeek(hdr.lumps[19].offset); int8_t lump_0013[hdr.lumps[19].length];
+    FSeek(hdr.lumps[20].offset); int8_t lump_0014[hdr.lumps[20].length];
+    FSeek(hdr.lumps[21].offset); int8_t lump_0015[hdr.lumps[21].length];
+    FSeek(hdr.lumps[22].offset); int8_t lump_0016[hdr.lumps[22].length];
+    FSeek(hdr.lumps[23].offset); int8_t lump_0017[hdr.lumps[23].length];
+    FSeek(hdr.lumps[24].offset); int8_t lump_0018[hdr.lumps[24].length];
+    FSeek(hdr.lumps[25].offset); int8_t lump_0019[hdr.lumps[25].length];
+    FSeek(hdr.lumps[26].offset); int8_t lump_001A[hdr.lumps[26].length];
+    FSeek(hdr.lumps[27].offset); int8_t lump_001B[hdr.lumps[27].length];
+    FSeek(hdr.lumps[28].offset); int8_t lump_001C[hdr.lumps[28].length];
+    FSeek(hdr.lumps[29].offset); int8_t lump_001D[hdr.lumps[29].length];
+    FSeek(hdr.lumps[30].offset); int8_t lump_001E[hdr.lumps[30].length];
+    FSeek(hdr.lumps[31].offset); int8_t lump_001F[hdr.lumps[31].length];
+    FSeek(hdr.lumps[32].offset); int8_t lump_0020[hdr.lumps[32].length];
+    FSeek(hdr.lumps[33].offset); int8_t lump_0021[hdr.lumps[33].length];
+    FSeek(hdr.lumps[34].offset); int8_t lump_0022[hdr.lumps[34].length];
+    FSeek(hdr.lumps[35].offset); int8_t lump_0023[hdr.lumps[35].length];
+    FSeek(hdr.lumps[36].offset); int8_t lump_0024[hdr.lumps[36].length];
+    FSeek(hdr.lumps[37].offset); int8_t lump_0025[hdr.lumps[37].length];
+    FSeek(hdr.lumps[38].offset); int8_t lump_0026[hdr.lumps[38].length];
+    FSeek(hdr.lumps[39].offset); int8_t lump_0027[hdr.lumps[39].length];
+    FSeek(hdr.lumps[40].offset); int8_t lump_0028[hdr.lumps[40].length];
+    FSeek(hdr.lumps[41].offset); int8_t lump_0029[hdr.lumps[41].length];
+    FSeek(hdr.lumps[42].offset); int8_t lump_002A[hdr.lumps[42].length];
+    FSeek(hdr.lumps[43].offset); int8_t lump_002B[hdr.lumps[43].length];
+    FSeek(hdr.lumps[44].offset); int8_t lump_002C[hdr.lumps[44].length];
+    FSeek(hdr.lumps[45].offset); int8_t lump_002D[hdr.lumps[45].length];
+    FSeek(hdr.lumps[46].offset); int8_t lump_002E[hdr.lumps[46].length];
+    FSeek(hdr.lumps[47].offset); int8_t lump_002F[hdr.lumps[47].length];
+    FSeek(hdr.lumps[48].offset); int8_t lump_0030[hdr.lumps[48].length];
+    FSeek(hdr.lumps[49].offset); int8_t lump_0031[hdr.lumps[49].length];
+    FSeek(hdr.lumps[50].offset); int8_t lump_0032[hdr.lumps[50].length];
+    FSeek(hdr.lumps[51].offset); int8_t lump_0033[hdr.lumps[51].length];
+    FSeek(hdr.lumps[52].offset); int8_t lump_0034[hdr.lumps[52].length];
+    FSeek(hdr.lumps[53].offset); int8_t lump_0035[hdr.lumps[53].length];
+    FSeek(hdr.lumps[54].offset); int8_t lump_0036[hdr.lumps[54].length];
+    FSeek(hdr.lumps[55].offset); int8_t lump_0037[hdr.lumps[55].length];
+    FSeek(hdr.lumps[56].offset); int8_t lump_0038[hdr.lumps[56].length];
+    FSeek(hdr.lumps[57].offset); int8_t lump_0039[hdr.lumps[57].length];
+    FSeek(hdr.lumps[58].offset); int8_t lump_003A[hdr.lumps[58].length];
+    FSeek(hdr.lumps[59].offset); int8_t lump_003B[hdr.lumps[59].length];
+    FSeek(hdr.lumps[60].offset); int8_t lump_003C[hdr.lumps[60].length];
+    FSeek(hdr.lumps[61].offset); int8_t lump_003D[hdr.lumps[61].length];
+    FSeek(hdr.lumps[62].offset); int8_t lump_003E[hdr.lumps[62].length];
+    FSeek(hdr.lumps[63].offset); int8_t lump_003F[hdr.lumps[63].length];
+    FSeek(hdr.lumps[64].offset); int8_t lump_0040[hdr.lumps[64].length];
+    FSeek(hdr.lumps[65].offset); int8_t lump_0041[hdr.lumps[65].length];
+    FSeek(hdr.lumps[66].offset); int8_t lump_0042[hdr.lumps[66].length];
+    FSeek(hdr.lumps[67].offset); int8_t lump_0043[hdr.lumps[67].length];
+    FSeek(hdr.lumps[68].offset); int8_t lump_0044[hdr.lumps[68].length];
+    FSeek(hdr.lumps[69].offset); int8_t lump_0045[hdr.lumps[69].length];
+    FSeek(hdr.lumps[70].offset); int8_t lump_0046[hdr.lumps[70].length];
+    FSeek(hdr.lumps[71].offset); int8_t lump_0047[hdr.lumps[71].length];
+    FSeek(hdr.lumps[72].offset); int8_t lump_0048[hdr.lumps[72].length];
+    FSeek(hdr.lumps[73].offset); int8_t lump_0049[hdr.lumps[73].length];
+    FSeek(hdr.lumps[74].offset); int8_t lump_004A[hdr.lumps[74].length];
+    FSeek(hdr.lumps[75].offset); int8_t lump_004B[hdr.lumps[75].length];
+    FSeek(hdr.lumps[76].offset); int8_t lump_004C[hdr.lumps[76].length];
+    FSeek(hdr.lumps[77].offset); int8_t lump_004D[hdr.lumps[77].length];
+    FSeek(hdr.lumps[78].offset); int8_t lump_004E[hdr.lumps[78].length];
+    FSeek(hdr.lumps[79].offset); int8_t lump_004F[hdr.lumps[79].length];
+    FSeek(hdr.lumps[80].offset); int8_t lump_0050[hdr.lumps[80].length];
+    FSeek(hdr.lumps[81].offset); int8_t lump_0051[hdr.lumps[81].length];
+    FSeek(hdr.lumps[82].offset); int8_t lump_0052[hdr.lumps[82].length];
+    FSeek(hdr.lumps[83].offset); int8_t lump_0053[hdr.lumps[83].length];
+    FSeek(hdr.lumps[84].offset); int8_t lump_0054[hdr.lumps[84].length];
+    FSeek(hdr.lumps[85].offset); int8_t lump_0055[hdr.lumps[85].length];
+    FSeek(hdr.lumps[86].offset); int8_t lump_0056[hdr.lumps[86].length];
+    FSeek(hdr.lumps[87].offset); int8_t lump_0057[hdr.lumps[87].length];
+    FSeek(hdr.lumps[88].offset); int8_t lump_0058[hdr.lumps[88].length];
+    FSeek(hdr.lumps[89].offset); int8_t lump_0059[hdr.lumps[89].length];
+    FSeek(hdr.lumps[90].offset); int8_t lump_005A[hdr.lumps[90].length];
+    FSeek(hdr.lumps[91].offset); int8_t lump_005B[hdr.lumps[91].length];
+    FSeek(hdr.lumps[92].offset); int8_t lump_005C[hdr.lumps[92].length];
+    FSeek(hdr.lumps[93].offset); int8_t lump_005D[hdr.lumps[93].length];
+    FSeek(hdr.lumps[94].offset); int8_t lump_005E[hdr.lumps[94].length];
+    FSeek(hdr.lumps[95].offset); int8_t lump_005F[hdr.lumps[95].length];
+    FSeek(hdr.lumps[96].offset); int8_t lump_0060[hdr.lumps[96].length];
+    FSeek(hdr.lumps[97].offset); int8_t lump_0061[hdr.lumps[97].length];
+    FSeek(hdr.lumps[98].offset); int8_t lump_0062[hdr.lumps[98].length];
+    FSeek(hdr.lumps[99].offset); int8_t lump_0063[hdr.lumps[99].length];
+    FSeek(hdr.lumps[100].offset); int8_t lump_0064[hdr.lumps[100].length];
+    FSeek(hdr.lumps[101].offset); int8_t lump_0065[hdr.lumps[101].length];
+    FSeek(hdr.lumps[102].offset); int8_t lump_0066[hdr.lumps[102].length];
+    FSeek(hdr.lumps[103].offset); int8_t lump_0067[hdr.lumps[103].length];
+    FSeek(hdr.lumps[104].offset); int8_t lump_0068[hdr.lumps[104].length];
+    FSeek(hdr.lumps[105].offset); int8_t lump_0069[hdr.lumps[105].length];
+    FSeek(hdr.lumps[106].offset); int8_t lump_006A[hdr.lumps[106].length];
+    FSeek(hdr.lumps[107].offset); int8_t lump_006B[hdr.lumps[107].length];
+    FSeek(hdr.lumps[108].offset); int8_t lump_006C[hdr.lumps[108].length];
+    FSeek(hdr.lumps[109].offset); int8_t lump_006D[hdr.lumps[109].length];
+    FSeek(hdr.lumps[110].offset); int8_t lump_006E[hdr.lumps[110].length];
+    FSeek(hdr.lumps[111].offset); int8_t lump_006F[hdr.lumps[111].length];
+    FSeek(hdr.lumps[112].offset); int8_t lump_0070[hdr.lumps[112].length];
+    FSeek(hdr.lumps[113].offset); int8_t lump_0071[hdr.lumps[113].length];
+    FSeek(hdr.lumps[114].offset); int8_t lump_0072[hdr.lumps[114].length];
+    FSeek(hdr.lumps[115].offset); int8_t lump_0073[hdr.lumps[115].length];
+    FSeek(hdr.lumps[116].offset); int8_t lump_0074[hdr.lumps[116].length];
+    FSeek(hdr.lumps[117].offset); int8_t lump_0075[hdr.lumps[117].length];
+    FSeek(hdr.lumps[118].offset); int8_t lump_0076[hdr.lumps[118].length];
+    FSeek(hdr.lumps[119].offset); int8_t lump_0077[hdr.lumps[119].length];
+    FSeek(hdr.lumps[120].offset); int8_t lump_0078[hdr.lumps[120].length];
+    FSeek(hdr.lumps[121].offset); int8_t lump_0079[hdr.lumps[121].length];
+    FSeek(hdr.lumps[122].offset); int8_t lump_007A[hdr.lumps[122].length];
+    FSeek(hdr.lumps[123].offset); int8_t lump_007B[hdr.lumps[123].length];
+    FSeek(hdr.lumps[124].offset); int8_t lump_007C[hdr.lumps[124].length];
+    FSeek(hdr.lumps[125].offset); int8_t lump_007D[hdr.lumps[125].length];
+    FSeek(hdr.lumps[126].offset); int8_t lump_007E[hdr.lumps[126].length];
+    FSeek(hdr.lumps[127].offset); int8_t lump_007F[hdr.lumps[127].length];
+} data;
+

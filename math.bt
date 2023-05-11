@@ -1,0 +1,26 @@
+//------------------------------------------------
+//--- 010 Editor v12.0.1 Binary Template
+//
+//      File: math.bt
+//   Authors: Fifty#8113
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+typedef byte  int8_t;
+typedef short int16_t;
+typedef int32 int32_t;
+
+struct Vector2
+{
+    float x, y;
+};
+
+struct Vector3
+{
+    float x, y, z;
+};
